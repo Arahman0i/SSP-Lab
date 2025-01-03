@@ -3,7 +3,7 @@
 echo "started at" 
 date
 
-#sed "s/2.00/NEW/g" Cl2.in > tmp
+sed "s/2.00/NEW/g" Cl2.in > tmp
   
 for DIST in `seq -w 2.2 0.2 4.6`
 do
