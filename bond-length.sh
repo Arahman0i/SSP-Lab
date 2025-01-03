@@ -7,9 +7,10 @@ date
   
 for DIST in `seq -w 2.2 0.2 4.6`
 do
-	#sed "s/NEW/${DIST}/g" tmp >Cl2-${DIST}.in
-	#pw.x <Cl2-${DIST}.in>Cl2-${DIST}.out
-	
+	sed "s/NEW/${DIST}/g" tmp >Cl2-${DIST}.in
+	pw.x <Cl2-${DIST}.in>Cl2-${DIST}.out
+
+ 	#Bond Length
 	echo ${DIST} | tee -a DIST.dat
 	#Energy
 	grep  '!' Cl2-${DIST}.out | awk '{print $5}' | tee -a E.dat
