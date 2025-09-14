@@ -1,0 +1,6 @@
+&BANDS
+  prefix = 'NaCl'
+  outdir = '/home/ataur/wrkdir/qe-out/'
+  filband = 'NaCl_bands.dat'
+  lsym = .true
+/
