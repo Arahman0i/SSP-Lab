@@ -29,6 +29,7 @@
 ## Calculated Results
 -  Lattice constant: 5.70 Å
 - Band Gap: 4.93 eV, direct (at Γ)
+- Bulk Modulus:  46.99 & 47.01974320 GPa using Birch–Murnaghan 3rd-order fit & Vinet EOS (ELK/eos tool)
 
 
 ## References
