@@ -1,0 +1,6 @@
+&BANDS
+ prefix = 'SiC'
+ outdir = '/home/ataur/wrkdir/qe/SiC/given/'
+ filband = 'SiC_bands.dat'
+ lsym = .true.
+/
