@@ -20,6 +20,13 @@
 4. grep -e 'highest occupied' SiC.scf.band.out
 5. plotband.x
 
+
+## Commands used for DOS Structure Calculation of SiC:
+1. mpirun -np 6 pw.x <SiC.scf.dos.in>SiC.scf.dos.out
+2. mpirun -np 6 pw.x <SiC.nscf.dos.in>SiC.nscf.dos.out
+3. dos.x <SiC.dos.in>SiC.dos.out
+
+
 ## Calculated Results: 
 - Lattice constant = 8.2388 Bohr
 - Band Gap = 1.36 eV (indirect at X-Γ)
