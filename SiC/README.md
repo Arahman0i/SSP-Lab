@@ -13,7 +13,7 @@
   - ecutrho: 140.0
 
 
-## Commands used for Band Structure Calculation of NaCl:
+## Commands used for Band Structure Calculation of SiC:
 1. mpirun -np 6 pw.x <SiC.scf.band.in> SiC.scf.band.out
 2. mpirun -np 6 pw.x <SiC.nscf.band.in > SiC.nscf.band.ou
 3. bands.x <SiC.bands.in>SiC.bands.out
